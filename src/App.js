@@ -46,7 +46,7 @@ function App() {
       <div className={classes.root}>
         <Button 
         className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} 
-        variant='outlined'
+        variant='contained'
         color='primary'
         onClick={toggle}
         >
